@@ -14,6 +14,7 @@ When you run the scripts, they will parse your todo.txt and will
 For making the script to work, you have to configure:
 * TOMAIL with the address where the tasks shall be sent
 * TODOTXT with the location of your todo.txt
+* TODOTXTDIR with the location of the directory of your todo.txt-file
 * if you use msmtp, then you also need to configure FROMMAIL with the address which will be in the FROM-part of the mail-header
 
 I use the script in the cron-job to get a notification in the morning and in the evening.

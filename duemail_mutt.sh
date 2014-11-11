@@ -51,7 +51,7 @@ $DUETASKSTOM
 You have $TODONO7DAYS $TASKS7DAYS due in 7 days.
 $DUETASKS7DAYS
 EOM
-  mutt -s "You have $TODONOTOM $TASKSTOM due today" $TOMAIL < $FILE
+  mutt -s "You have $TODONOTOM $TASKSTOM due tomorrow" $TOMAIL < $FILE
 }
 
 tasks_due_7days()
